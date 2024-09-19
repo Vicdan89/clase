@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Pokémon</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: #ffcb05;
+        }
+        .navbar-brand, .nav-link {
+            color: #2a75bb !important;
+            font-weight: bold;
+        }
+        .card-img-top {
+            width: 100%;
+            height: 15vw;
+            object-fit: cover;
+        }
+        .card {
+            border-radius: 15px;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card-title {
+            color: #ff6347;
+        }
+        .card-text {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Pokémon World</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Pokedex.html">Pokédex</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="entrenadores.html">Entrenadores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item"></li>
+                    <a class="nav-link" href="trabajo.html">Trabajo</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="text-center my-4">
+        <h1>¡Bienvenido a Pokémon World!</h1>
+        <p class="lead">Descubre los Pokémon más populares y explora su increíble mundo.</p>
+    </header>
+
+    <!-- Pokémon Cards -->
+    <div class="container">
+        <div class="row">
+            <!-- Pikachu Card -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png" class="card-img-top" alt="Pikachu">
+                    <div class="card-body">
+                        <h5 class="card-title">Pikachu</h5>
+                        <p class="card-text">El Pokémon más famoso, adorado por muchos, con el poder del trueno. Pikachu es el símbolo de la franquicia Pokémon.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Charizard Card -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png" class="card-img-top" alt="Charizard">
+                    <div class="card-body">
+                        <h5 class="card-title">Charizard</h5>
+                        <p class="card-text">Un Pokémon tipo fuego y dragón, Charizard puede volar y lanzar poderosas ráfagas de fuego. Es el favorito de los entrenadores.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Bulbasaur Card -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" class="card-img-top" alt="Bulbasaur">
+                    <div class="card-body">
+                        <h5 class="card-title">Bulbasaur</h5>
+                        <p class="card-text">Bulbasaur es un Pokémon tipo planta/veneno conocido por su longevidad y su conexión con la naturaleza. Perfecto para principiantes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
